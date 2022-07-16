@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <main>
+        <figure>
+            <div id="logo">
+                <img id="logoImage" src="https://cdn.statically.io/gh/TheOdinProject/curriculum/5f37d43908ef92499e95a9b90fc3cc291a95014c/html_css/project-sign-up-form/odin-lined.png">
+                <p id="logoCap">ODIN</p>
+            </div>
+            <figcaption>
+                <p>Photo by <a href="https://unsplash.com/photos/25xggax4bSA">Halie West on Unsplash</a></p>
+            </figcaption>
+        </figure>
+        <div id="rightSide">
+            <div id="introField">
+                <h3>This is not a real online service! You know you need something 
+                    like this in your life to help you realize your deepest dreams. 
+                    Sign up <em>now</em> to get started.</h3>
+                <h3>You <em>know</em> you want to.</h3>
+            </div>
+            <form action="#">
+                <div id="inputField">
+                    <h3>Let's do this</h3>
+                    <div class="fields">
+                        <div id="divFirst">
+                            <label for="firstName">FIRST NAME</label>
+                            <input type="text" name="firstName" id="firstName" required>
+                        </div>
+                        <div id="divLast">
+                            <label for="lastName">LAST NAME</label>
+                            <input type="text" name="lastName" id="lastName">
+                        </div>
+                        <div id="divEmail">
+                            <label for="email">EMAIL</label>
+                            <input type="email" name="email" id="email">
+                        </div>
+                        <div id="divPhone">
+                            <label for="phoneNumber">PHONE NUMBER</label>
+                            <input type="number" name="phoneNumber" id="phoneNumber">
+                        </div>
+                        <div id="divPassword">
+                            <label for="password">PASSWORD</label>
+                            <input type="password" name="password" id="password">
+                        </div>
+                        <div id="divConfirm">
+                            <label for="confirmPassword">CONFIRM PASSWORD</label>
+                            <input type="password" name="confirmPassword" id="confirmPassword">
+                        </div>
+                    </div>
+                </div>
+                <button type="submit">Create Account</button>
+            </form>
+            <div id="accountField">                
+                <h3>Already have an account? <a href="#">Log in</a></h3>
+            </div>
+        </div>
+    </main>
+</body>
+    <script src="./script.js"></script>
+</html>
